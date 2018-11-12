@@ -1,0 +1,79 @@
+nav a {
+	font-family: Special Elite;
+	text-transform: uppercase;
+}
+nav {
+	margin-bottom: 15px;
+}
+body {	
+	background-color: var(--light);
+/*	background-image: url(http://www.backstreetart.org/wp-content/uploads/2016/04/grungy_paper_v_6___or_sumtin___by_bashcorpo.jpg);*/
+}
+/*.card {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: center;
+	width: 30vw;
+	height: 50vh;
+	font-size: -10rem;
+ 	text-overflow: ellipsis;
+ 	padding: 10px;
+ 	font-family: special elite
+	background-image: url(http://explorenorth.com/wordpress/wp-content/uploads/2014/12/alaska_hwy-winter_sunrise-macrae-6673-hdr-1200.jpg);
+	background-size: cover;
+}
+.card .btn {
+			display: flex;
+			justify-content: center;
+}*/
+.card {
+	margin: 10px;
+	background-image: url(http://www.backstreetart.org/wp-content/uploads/2016/04/grungy_paper_v_6___or_sumtin___by_bashcorpo.jpg);
+	font-family: special elite;
+	border-radius: 10px;
+}
+.card-title {
+		word-wrap: normal;
+		text-align: center;
+/*		color: var(--light);
+*/		font-family: special elite;
+/*		background-image: url(http://explorenorth.com/wordpress/wp-content/uploads/2014/12/alaska_hwy-winter_sunrise-macrae-6673-hdr-1200.jpg);
+*/		background-size: cover;
+		padding: 12px;
+}
+.btn {	
+	width: 50%;
+	align-self: center;
+	margin-bottom: 5px;
+}
+.btn:hover {	
+	background-color: var(--light);
+	border-color: black;
+	color: black;
+}
+.poem {
+		display: flex;
+		justify-content: right;
+		flex-flow: column nowrap;
+}
+.poem-stanza {
+	font-family: special elite;
+}
+.poem .poem-title {
+	margin-top: 25px;
+	font-size: 5.5vw;
+	text-align: center;
+	word-wrap: normal;
+	font-family: special elite;
+	background-image: url(http://explorenorth.com/wordpress/wp-content/uploads/2014/12/alaska_hwy-winter_sunrise-macrae-6673-hdr-1200.jpg);
+
+}
+.poem-text {
+	text-align: center;
+	font-size: 20px;
+}
+.poem-body {
+	margin-bottom: 25px;
+}
